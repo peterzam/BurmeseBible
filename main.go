@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-	EPUB_NAME := "BurmeseBible.epub"
+	EPUB_NAME := "Burmese Bible - Adoniram Judson.epub"
 	e := epub.NewEpub("Burmese Bible")
 	cover_image_path, err := e.AddImage("src/cover.png", "cover.png")
 	if err != nil {
@@ -22,8 +22,11 @@ func main() {
 	}
 	e.SetCover(cover_image_path, cover_css_path)
 	e.SetAuthor("Adoniram Judson")
-	e.SetDescription("1835 Judson Burmese Bible")
-	e.SetLang("my")
+	e.SetDescription("1835 Judson Burmese Bible, Generated(v2.0.0) by peterzam.dev")
+	e.AddFont("fonts/Myanmar3_MultiOS.ttf", "")
+	e.AddFont("fonts/NotoSansMyanmar-Regular.ttf", "")
+	e.AddFont("fonts/Padauk-Regular.ttf", "")
+	e.AddFont("fonts/PadaukBook-Regular.ttf", "")
 
 	// Read bible
 	file, err := ioutil.ReadFile("src/judson.json")
