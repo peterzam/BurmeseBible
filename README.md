@@ -2,7 +2,7 @@
 
 1835 Judson Burmese Bible in EPUB ebook format.
 
-Recommand to use [NotoSansMyanmar](https://fonts.google.com/noto/specimen/Noto+Sans+Myanmar) font, [Padauk](https://github.com/silnrsi/font-padauk)font , or [Mynamar 3](https://www.mmunicode.org/wiki/myanmar3-font/) font.
+Recommand to use [NotoSansMyanmar](https://fonts.google.com/noto/specimen/Noto+Sans+Myanmar) font, [Padauk](https://github.com/silnrsi/font-padauk) font , or [Myanmar 3](https://www.mmunicode.org/wiki/myanmar3-font/) font.
 
 The original source of Bible is from https://github.com/getbible/v2.
 
